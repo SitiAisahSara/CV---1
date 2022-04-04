@@ -1,0 +1,87 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.bagian-kiri{
+	position: fixed; /*agar bagian kiri ga bergerak*/ 
+	width: 400px;
+	height:100%;
+	background-color: grey;
+}
+
+.konten-kiri{
+	position: absolute;
+	top: 100px;/*jarak dari atas*/
+	text-align: center;
+}
+
+.foto{
+	width: 50%;
+	border-radius: 50%; /*membuat foto menjadi bulat*/
+}
+.button{
+	width: 50%;
+	padding: 10px;
+	background-color: white;
+	border-radius: 14px; /*agar melengkung*/
+	margin-bottom: 12px;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+.button:hover{ /*untuk merubah warna button dan teks saat kursor ada di area tsb*/
+	background-color: black;
+	color: white;
+	transition: 1s; /*untuk transisi perubahannya*/
+}
+.bagian-kanan{
+	position: absolute;
+	left: 400px; /*selebar bagian kiri*/
+}
+.bar-atas{
+padding-top: 50px;
+padding-left: 100px;
+}
+.title{
+	font-style: italic;
+	font-size: 1.3rem;
+}
+.bar-atas-kanan{
+	float: right;
+	padding-right: 50px;
+}
+.bar-kanan{
+	font-size: 1.1rem;
+	padding: 0 15px; /* atas bawah 0, kanan kiri 15*/
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+#profile{
+	padding-top: 100px;
+	padding-left: 100px;
+}
+#about{
+	padding-top: 100px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+#experience{
+	padding-top: 250px;
+	padding-left: 100px;
+}
+#achievements{
+	padding-top: 250px;
+	padding-left: 100px;
+}
+#contact{
+	padding-top: 250px;
+	padding-left: 100px;
+}
+#footer{
+	padding-top: 250px;
+	text-align: center;
+}
+p, li{
+	line-height: 200%;
+}
